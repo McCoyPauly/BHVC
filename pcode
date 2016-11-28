@@ -1,0 +1,30 @@
+/* pcode/task overview/ commenting key for BHVC 
+Language: JS
+
+task overview: 
+open an industry standard LAS file, parse the file to find the caliper curve, 
+and use the cylindrical volume implied by the caliper to create a cumulative numerical volume and return a simple result in 
+cubic feet and/or gallons
+
+Core features:
+Find accurate cumulative volume calculation 
+offer exclusion of fixed volumes (IE production casings) in order to give cementation volumes
+
+Extened Features
+Unit conversion 
+outlier (blowout) highlighting or alerts 
+partial hole selection (volume of a blowout) (over double bitsize?)
+
+
+Known ramspace: 
+
+Core
+Filename 
+Cumulative Volume
+Exclusion volume 
+Layer volume
+
+extended: 
+  unit conversions?
+    
+Basic Forumla is: Cumulative Volume += (layer volume - exclusion volume) 
