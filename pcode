@@ -6,6 +6,9 @@ open an industry standard LAS file, parse the file to find the caliper curve,
 and use the cylindrical volume implied by the caliper to create a cumulative numerical volume and return a simple result in 
 cubic feet and/or gallons
 
+notes: The LAS file type was created by the canadian well logging service. three versions exist, this project is to be optimized 
+for compatibility with 
+
 Core features:
 Find accurate cumulative volume calculation 
 offer exclusion of fixed volumes (IE production casings) in order to give cementation volumes
